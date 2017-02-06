@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
 
   def hello
-  	render html: "Xin chào các bạn, mình là Tuấn"
+  	render html: " "
   end
 
   def map

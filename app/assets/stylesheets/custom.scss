@@ -202,3 +202,9 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+.under-construction{
+  background-image: url('under_construction.png');
+  width: 1107px;
+  background-size: contain;
+  height: 400px;
+}

@@ -1,10 +1,10 @@
-<h1>TuanVC.com</h1>
+<h1>Web-App.com</h1>
 
 <p>Hi <%= @user.name %>,</p>
 
 <p>
-Tớ yêu cậu!
-Click vào link bên dưới để đc thung thướng nha:
+Welcome!
+Click on link below to activate your account:
 </p>
 
-<%= link_to "Active", edit_account_activation_url(@user.activation_token, email: @user.email) %>
+<%= link_to "Click to active", edit_account_activation_url(@user.activation_token, email: @user.email) %>

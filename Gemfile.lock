@@ -114,7 +114,6 @@ GEM
     notiffany (0.1.0)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    pg (0.18.4)
     pkg-config (1.1.7)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -213,7 +212,6 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   minitest-reporters
-  pg
   puma (~> 3.0)
   rails (~> 5.0.0)
   rails-controller-testing
@@ -228,4 +226,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   1.10.4
+   1.14.3
